@@ -4,6 +4,7 @@
 
 
 """
+Predicting Distributions - pd1
 DistributionRegressor: Nonparametric Distributional Regression 
 Lotto 7/39 predict probability  DistributionRegressor
 """ 
