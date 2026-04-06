@@ -5,8 +5,6 @@
 
 """
 DistributionRegressor: Nonparametric Distributional Regression 
-fork from: https://github.com/guyko81/DistributionRegressor
-
 Lotto 7/39 predict probability  DistributionRegressor
 """ 
 
@@ -15,7 +13,7 @@ import pandas as pd
 from distribution_regressor import DistributionRegressor
 import matplotlib.pyplot as plt
 
-CSV_PATH = "/Users/4c/Desktop/GHQ/data/loto7hh_4592_k27.csv"
+CSV_PATH = "/data/loto7hh_4592_k27.csv"
 COLS = ["Num1", "Num2", "Num3", "Num4", "Num5", "Num6", "Num7"]
 SEED = 39
 np.random.seed(SEED)
@@ -84,8 +82,8 @@ Prediction = enforce_loto_7_39(pred_median)
 print("y_pred (mode):", y_pred)
 print("Prediction (median):", Prediction)
 """
-y_pred (mode): [ 1  5 14 24 25 29 37]
-Prediction (median): [ 3  8 16 22 24 30 37]
+y_pred (mode): [ 1  5 x y z 29 37]
+Prediction (median): [ 3  8 x y z 30 37]
 """
 
 
