@@ -6,8 +6,9 @@
 """
 Predicting Distributions - pd1
 DistributionRegressor: Nonparametric Distributional Regression 
-Lotto 7/39 predict probability  DistributionRegressor
+Lotto 7/39 probabilistic predictions
 """ 
+
 
 import numpy as np
 import pandas as pd
